@@ -12,7 +12,7 @@ Simple timetable using HTML5 &amp; CSS3 :smile:
 git clone https://github.com/Fullfifax/odc-edt.git
 ```
 - Step 2: Open FTTR_Team$ folder on your code editor
-- Step 3: Modify your file
+- Step 3: Modify your file and open to your favorite browser :smile:
 > There are four folders (assets, authentication, contacts, edt)
 - assets contains css (all our css file are inside of it), ...
 - authentication (For Fullfifax)

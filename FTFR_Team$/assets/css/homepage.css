@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    
+}
+
+nav{
+    background-color: black;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type:none ;
+    margin:auto;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: orange;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+#section1{
+    height: 30vh;
+    background-image: url(.//vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+    background-position: center;
+}
+
+#presentation{
+    display: flex;
+}
+
+div{
+    margin: 20px 10px;
+    padding: auto;
+}

@@ -1,0 +1,16 @@
+body
+{
+    background-image: url('../images/edt.jpg');
+}
+
+.edt
+{
+    font-size: 200%;
+    
+}
+
+.hr
+{
+
+background-color: rgb(207, 255, 205);
+}

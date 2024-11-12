@@ -1,41 +1,151 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/homepage.css">
-    <title>Acceuil</title>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>ODC-EDT Homepage</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="./assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+  <style>
+    .full-text {
+      display: block;
+    }
+    .short-text {
+      display: none;
+    }
+  </style>
 </head>
+
 <body>
+  <div class="top_container">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              ODC-EDT
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <header>
-        <nav>
-           <ul>
-            <li><a href="./index.html">Acceuil</a></li>
-            <li><a href="./edt/edt.html">Emploi du temps</a></li>
-            <li><a href="./authentication/login.html">Login</a></li>
-            <li><a href="./contacts/contacts.html">Contact</a></li>
-           </ul>
-       </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="./contacts/contacts.html"> Contacts </a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="./edt/edt.html"> EDT </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./authentication/login.php"> Authentication </a>
+                </li>
+
+              </ul>
+            </div>
+        </nav>
+      </div>
     </header>
-    <section id="section1">
+    <section class="hero_section ">
+      <div class="hero-container container">
+        <div class="hero_detail-box">
+          <h1>
+            Tongasoa eto @ EDT ny sekolinay
+          </h1>
+          <p>
+            Le projet consiste à développer un système d'emploi du temps pour une école.
+            Ce système permet de gérer efficacement les horaires de cours, d'assurer une
+            meilleure organisation des salles et des enseignants, et de faciliter l'accès aux
+            informations pour les étudiants et le personnel.
+          </p>
+          <div class="hero_btn-continer">
+            <a href="" class="call_to-btn btn_white-border">
+              Voir plus
+            </a>
+          </div>
+        </div>
+        <div class="hero_img-container">
+          <div>
+            <img src="images/hero.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="presentation">
-        <div>
-            <h2>Bienvenue dans notre école</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, vel! Maiores vel nam error dolore possimus laborum sed aliquam itaque numquam dolor totam quibusdam iste amet perspiciatis dolorum optio vero fugit, fugiat quia sequi nostrum. Eveniet eaque architecto recusandae numquam eos unde ad repellat asperiores vitae libero, minima accusantium explicabo.</p>
+  </div>
+
+  <!-- About Section -->
+  <div class="common_style">
+    <section class="about_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about_img-container">
+              <img src="images/about.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about_detail-box">
+              <h3>
+                A propos de sekolinay
+              </h3>
+              <p id="about-text" class="short-text">
+                Sekolinay est une institution éducative dédiée à l'excellence académique et au développement personnel de chaque étudiant. Nous offrons un environnement d'apprentissage innovant qui valorise la curiosité, la créativité et la pensée critique.
+              </p>
+              <p id="about-text-full" class="full-text" style="display:none;">
+                Sekolinay se distingue par son approche équilibrée, intégrant à la fois les sciences, les arts et le sport pour une formation complète et enrichissante.
+              </p>
+              <div class="">
+                <a href="javascript:void(0);" class="call_to-btn btn_white-border" onclick="toggleText()">Voir plus</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero sapiente molestias expedita nostrum quidem eveniet modi harum ut eum recusandae laborum placeat iste molestiae dolorem sit facilis id, odit, nesciunt eos officia veritatis delectus minima rerum. Voluptas facilis aut cupiditate iste incidunt consectetur corporis dolorem! Reiciendis magni corporis voluptatum?</p>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugiat assumenda nesciunt nobis, fuga quos aperiam, quam quaerat facere, amet molestiae? Earum consequuntur, molestiae cum accusamus odit laboriosam, incidunt ipsum blanditiis assumenda iure laborum eligendi ipsam aspernatur! Maiores id quibusdam quae quo, debitis corporis nulla quod vero explicabo cum voluptates amet! Ab dicta tempora accusamus repudiandae, dignissimos fugit voluptatum explicabo iure neque recusandae velit quaerat. Consequatur sint, eaque modi aspernatur animi enim tenetur earum repellat quo possimus facere commodi fuga!</p>
-        </div>
+      </div>
     </section>
+    <!-- end about section -->
+  </div>
 
-    <footer>
+  <script>
+    function toggleText() {
+      var shortText = document.getElementById("about-text");
+      var fullText = document.getElementById("about-text-full");
+      var btn = document.querySelector(".call_to-btn");
 
-    </footer>
+      if (shortText.style.display === "none") {
+        shortText.style.display = "block";
+        fullText.style.display = "none";
+        btn.textContent = "Voir plus";
+      } else {
+        shortText.style.display = "none";
+        fullText.style.display = "block";
+        btn.textContent = "Voir moins";
+      }
+    }
+  </script>
+
 </body>
+
 </html>
